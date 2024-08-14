@@ -20,7 +20,6 @@ public class mergeSort {
         while (j<=ei) {
             tempArray[k++]=arr[j++];
         }
-
         //copy arr
         for(k=0,i=si;k<tempArray.length;k++,i++){
             arr[i]=tempArray[k];
