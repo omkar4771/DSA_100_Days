@@ -4,7 +4,6 @@ public class mergeSort {
         int i=si; //iterator for left part
         int j=mid +1; //iterator for right part
         int k=0; //iterator for temp array
-
         while(i<=mid && j<=ei){
             if(arr[i]<arr[j]){
                 tempArray[k] = arr[i++];
